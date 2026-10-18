@@ -1,0 +1,16 @@
+[project]
+name = "scalerag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.4.6",
+    "langchain-anthropic>=1.7.6",
+    "langchain-community>=0.4.2",
+    "langsmith>=0.14.11",
+    "pymupdf>=1.28.2",
+    "python-dotenv>=1.2.4",
+    "rapidocr>=3.10.0",
+    "rapidocr-onnxruntime>=1.4.4",
+]
